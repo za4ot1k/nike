@@ -1,26 +1,29 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
 body {
     font-family: 'Roboto';
-    font-weight: 400;
+    margin: 0;
+    padding: 0 ;
 }
 
-li {
-    list-style: none;
-}
 
-header {
-    display: flex;
-    background: #012D63;
-    height: 93px;
-    
-}
 
 h2,p,h1 {
+    font-weight: 300;
     color: #fff;
+}
+
+
+                /* HEADER */
+header {
+    background: #012D63;
+}
+
+.header-container {
+    outline: dashed red;
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
 }
 
 .logo {
@@ -43,6 +46,10 @@ h2,p,h1 {
 
 .menu-link:hover{
     color: #fff;
+}
+
+.switch {
+    display: flex;
 }
 
 .switch-link {
@@ -79,11 +86,17 @@ h2,p,h1 {
 
 }
 
+
+            /* MAIN */
+.main-container {
+    width: 1110px;
+    margin: auto;
+    outline: dashed red;
+}
+
 .cap {
-    background: url(./img/wrapper1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+    background-color: #011563;
+    padding: 0px 0px 286px 0px ;
 }
 
 .cap-subtitle {
@@ -131,10 +144,8 @@ h2,p,h1 {
 
 
 .cards {
-    background: url(./img/wrapper2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 606px;
+    padding: 105px 0px 80px 0px;
+    background-color: #8E32C6;
 }
 
 .card1-img,.card2-img,.card3-img {
@@ -143,10 +154,8 @@ h2,p,h1 {
 }
 
 .Reviews {
-    background: url(./img/wrapper3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 606px;
+    padding: 37px 0px 67px 0px;
+    background-color: #021635;
 }
 
 .tittle-rev {
@@ -155,6 +164,7 @@ h2,p,h1 {
     line-height: 64px;
     text-align: center;
     color: #FFFFFF;
+    font-weight: 400;
 
 }
 
@@ -238,8 +248,6 @@ h2,p,h1 {
 
 }
 
-
-
 .form-input{
     width: 580px;
     height: 40px;
@@ -254,11 +262,8 @@ h2,p,h1 {
 }
 
 .form-order {
-    background: url(./img/wrapper5.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-height: 509px ;
-    height: 600px;
+    padding: 20px 0px 38px 0px;
+    background-color: #8E32C6;
 }
 
 .order-button {
@@ -274,9 +279,28 @@ h2,p,h1 {
     
 }
 
+.form-title {
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+
+                        /* FOOTER */
+.footer-container {
+    width: 1110px;
+    margin: auto;
+    outline: dashed red;
+}
+
 footer {
+    padding: 45px 0px 50px 0px;
     background-color: #021635;
 }
+
 
 .question {
     font-size: 24px;

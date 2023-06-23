@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Raleway:wght@700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -14,6 +15,7 @@
 
 <body>
     <header class="header">
+        <div class="header-container">
             <img class="logo" src="./img/logo1.png" alt="logo">
             <ul class="menu">
                 <li class="menu-item">
@@ -43,146 +45,161 @@
                     <a class="switch-link" href="#">Eng</a>
                 </li>
             </ul>
+        </div>
     </header>
     <main>
         <section class="cap">
-            <img class="logo2" src="./img/logo1.png" alt="logo">
-            <p class="logo-text">С&R</p>
-            <h1 class="tittle">ColoRawe</h1>
-            <h2 class="cap-subtitle">Your dream Nike</h2>
-            <p class="cap-discription">On this site you can find custom Nike sneakers of your dreams.
-                The original company caт`t create such beautiful
-                sneakers as we do.
-                Good luck finding your way in the world of custom sneakers.</p>
-            <button class="buy-now" type="button">Buy my Nike</button>
+            <div class="main-container">
+                <img class="logo2" src="./img/logo1.png" alt="logo">
+                <p class="logo-text">С&R</p>
+                <h1 class="tittle">ColoRawe</h1>
+                <h2 class="cap-subtitle">Your dream Nike</h2>
+                <p class="cap-discription">On this site you can find custom Nike sneakers of your dreams.
+                    The original company caт`t create such beautiful
+                    sneakers as we do.
+                    Good luck finding your way in the world of custom sneakers.</p>
+                <button class="buy-now" type="button">Buy my Nike</button>
+            </div>
         </section>
-        <section class="cards">
-            <ul class="cards-list">
-                <li class="cards-item">
-                    <section class="card1">
-                        <h2 class="card-title">Premium
-                            Quality
-                        </h2>
-                        <img class="card-img" src="./img/img1.png" alt="star">
-                    </section>
-                </li>
-                <li class="cards-item">
-                    <div></div>
-                    <section class="card2">
-                        <img class="card-img" src="./img/grafity.png" alt="grafity">
-                        <h2 class="card-title">Indelible
-                            paint
-                        </h2>
-                    </section>
-                </li>
-                <li class="cards-item">
-                    <div></div>
-                    <section class="card3">
-                        <h2 class="card-title">Fast
-                            shipping
-                        </h2>
-                        <img class="card-img" src="./img/bus.png" alt="bus">
-                    </section>
-                </li>
-            </ul>
+            <div class="cards">
+                <div class="main-container">
+                    <ul class="cards-list">
+                        <li class="cards-item">
+                            <section class="card1">
+                                <h2 class="card-title">Premium
+                                    Quality
+                                </h2>
+                                <img class="card-img" src="./img/img1.png" alt="star">
+                            </section>
+                        </li>
+                        <li class="cards-item">
+                            <div></div>
+                            <section class="card2">
+                                <img class="card-img" src="./img/grafity.png" alt="grafity">
+                                <h2 class="card-title">Indelible
+                                    paint
+                                </h2>
+                            </section>
+                        </li>
+                        <li class="cards-item">
+                            <div></div>
+                            <section class="card3">
+                                <h2 class="card-title">Fast
+                                    shipping
+                                </h2>
+                                <img class="card-img" src="./img/bus.png" alt="bus">
+                            </section>
+                        </li>
+                    </ul>
+                </div>  
+            </div> 
         </section>
         <section class="Reviews">
-            <h2 class="tittle-rev">Reviews</h2>
-            <ul class="reviews-list">
-                <li class="reviews-item">
-                    <section class="card1-rev">
-                        <div class="card-container">
-                            <p class="cardrev-discription">
-                                Sneakers are very
-                                comfortable and well
-                                painted, nothing has
-                                worn off in a year.
-                            </p>
-                            <p class="cardrev-text">
-                                05.01
-                            </p>
-                            <img class="cardrev1-img" src="./img/men.png" alt="men">
-                            <h2 class="cardrev-title">John Teylor</h2>
-                            <p class="cardrev-disp">With us from 2020</p>
-                        </div>
-                    </section>
-                </li>
-                <li class="reviews-item">
-                    <section class="card2-rev">
-                        <div class="card-container">
-                            <p class="cardrev-discription">
-                                I'm very happy with this color scheme.
-                                They match all my clothes.
-                            </p>
-                            <p class="cardrev-text">
-                                25.11
-                            </p>
-                            <img class="cardrev2-img" src="./img/woman.png" alt="women">
-                            <h2 class="cardrev-title">Elizabeth Garsia</h2>
-                            <p class="cerdrev-discp">With us from 2018</p>
-                        </div>
-                    </section>
-                </li>
-                <li class="reviews-item">
-                    <section class="card3-rev">
-                        <div class="card-container">
-                            <p class="cardrev-discription">
-                                Just right if you need to go to a party.
-                                I use them actively, the paint is super.
-                            </p>
-                            <p class="cardrev-text">
-                                18.06
-                            </p>
-                            <img class="cardrev3-img" src="./img/men2.png" alt="men">
-                            <h2 class="cardrev-title">Tom Maquare</h2>
-                            <p class="cerdrev-discp">With us from 2019</p>
-                        </div>
-                    </section>
-                </li>
-            </ul>
+            <div class="main-container">
+                <h2 class="tittle-rev">Reviews</h2>
+                <ul class="reviews-list">
+                    <li class="reviews-item">
+                        <section class="card1-rev">
+                            <div class="card-container">
+                                <p class="cardrev-discription">
+                                    Sneakers are very
+                                    comfortable and well
+                                    painted, nothing has
+                                    worn off in a year.
+                                </p>
+                                <p class="cardrev-text">
+                                    05.01
+                                </p>
+                                <img class="cardrev1-img" src="./img/men.png" alt="men">
+                                <h2 class="cardrev-title">John Teylor</h2>
+                                <p class="cardrev-disp">With us from 2020</p>
+                            </div>
+                        </section>
+                    </li>
+                    <li class="reviews-item">
+                        <section class="card2-rev">
+                            <div class="card-container">
+                                <p class="cardrev-discription">
+                                    I'm very happy with this color scheme.
+                                    They match all my clothes.
+                                </p>
+                                <p class="cardrev-text">
+                                    25.11
+                                </p>
+                                <img class="cardrev2-img" src="./img/woman.png" alt="women">
+                                <h2 class="cardrev-title">Elizabeth Garsia</h2>
+                                <p class="cerdrev-discp">With us from 2018</p>
+                            </div>
+                        </section>
+                    </li>
+                    <li class="reviews-item">
+                        <section class="card3-rev">
+                            <div class="card-container">
+                                <p class="cardrev-discription">
+                                    Just right if you need to go to a party.
+                                    I use them actively, the paint is super.
+                                </p>
+                                <p class="cardrev-text">
+                                    18.06
+                                </p>
+                                <img class="cardrev3-img" src="./img/men2.png" alt="men">
+                                <h2 class="cardrev-title">Tom Maquare</h2>
+                                <p class="cerdrev-discp">With us from 2019</p>
+                            </div>
+                        </section>
+                    </li>
+                </ul>
+            </div>
         </section>
         <form class="form-order">
-            <input class="form-input1" placeholder="     Write your email                                           Confirm " type="text" name="" id=""><br>
-            <input class="form-input" placeholder="     Your Country" type="text" name="" id=""><br>
-            <input class="form-input" placeholder="     Your City" type="text" name="" id=""><br>
-            <input class="form-input" placeholder="     Your Adress" type="text" name="" id=""><br>
-            <button class="order-button" type="submit">Order my Nike</button><br>
+            <div class="main-container">
+                <h2 class="form-title">
+                    Order
+                </h2>
+                <input class="form-input1" placeholder="     Write your email                                           Confirm " type="text" name="" id=""><br>
+                <input class="form-input" placeholder="     Your Country" type="text" name="" id=""><br>
+                <input class="form-input" placeholder="     Your City" type="text" name="" id=""><br>
+                <input class="form-input" placeholder="     Your Adress" type="text" name="" id=""><br>
+                <button class="order-button" type="submit">Order my Nike</button><br>
+            </div>
         </form>
     </main>
     <footer>
-        <ul>
-            <li>
-                <p class="question">Have a question?</p>
-            </li>
-            <li>
-                <p class="question">Have a proposal for cooperation?</p>
-            </li>
-            <li>
-                <p class="question">Advertising questions?</p>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a class="footer-link" href="mailto:ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a>
-            </li>
-            <li>
-                <a class="footer-link" href="mailto:ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a>
-            </li>
-            <li>
-                <a class="footer-link" href="mailto:ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a>
-            </li>
-        </ul>
-        <div class="footer-line"></div>
-        <ul>
-            <li>
-                <p class="footer-info">2022 ColoRawe @All rights reserved</p>
-            </li>
-            <li>
-                <p class="footer-info">United States</p>
-            </li>
-        </ul>
-        <img class="logo" src="./img/logo1.png" alt="logo">
-        <p class="logo-text">С&R</p>
+        <div class="footer-container">
+            <ul>
+                <li>
+                    <p class="question">Have a question?</p>
+                </li>
+                <li>
+                    <p class="question">Have a proposal for cooperation?</p>
+                </li>
+                <li>
+                    <p class="question">Advertising questions?</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a class="footer-link" href="mailto:ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a>
+                </li>
+                <li>
+                    <a class="footer-link" href="mailto:ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a>
+                </li>
+                <li>
+                    <a class="footer-link" href="mailto:ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a>
+                </li>
+            </ul>
+            <div class="footer-line"></div>
+            <ul>
+                <li>
+                    <p class="footer-info">2022 ColoRawe @All rights reserved</p>
+                </li>
+                <li>
+                    <p class="footer-info">United States</p>
+                </li>
+            </ul>
+            <img class="logo" src="./img/logo1.png" alt="logo">
+            <p class="logo-text">С&R</p>
+        </div>
     </footer>
 </body>
 
